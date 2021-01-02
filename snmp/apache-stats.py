@@ -85,5 +85,5 @@ for param in dataorder:
 
 # print the scoreboard
 for state in scoreboardkey:
-	print states[state]
+	print(states[state])
 #	print state
