@@ -28,3 +28,4 @@ fi
 
 # Return snmp result
 echo $result
+

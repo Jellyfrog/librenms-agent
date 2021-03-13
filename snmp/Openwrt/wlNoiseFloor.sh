@@ -18,3 +18,4 @@ noise=`/usr/bin/iwinfo $1 assoclist | /usr/bin/cut -s -d "/" -f 2 | /usr/bin/cut
 
 # Return snmp result
 /bin/echo $noise
+

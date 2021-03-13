@@ -11,3 +11,4 @@ unbountctl='/usr/bin/env unbound-control'
 ##
 
 $unbountctl stats
+

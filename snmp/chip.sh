@@ -85,3 +85,4 @@ echo $VBAT
 echo $(echo "$BAT_C-$BAT_D"|bc)
 echo $BAT_PERCENT
 echo $STATUS_CHARGING
+

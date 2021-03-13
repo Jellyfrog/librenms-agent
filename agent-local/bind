@@ -19,3 +19,4 @@ echo "<<<bind>>>"
 > $stats
 rndc stats && cat $stats
 
+

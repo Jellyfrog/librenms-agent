@@ -7,3 +7,4 @@ for FIELD in bios-vendor bios-version bios-release-date system-manufacturer syst
 do
   echo $FIELD=$(dmidecode -s $FIELD | grep -v '^#')
 done
+

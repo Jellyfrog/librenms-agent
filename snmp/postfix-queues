@@ -11,3 +11,4 @@ for i in $QUEUES; do
         COUNT=`qshape $i | grep TOTAL | awk '{print $2}'`
         printf "$COUNT\n"
 done
+

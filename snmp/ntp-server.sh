@@ -97,3 +97,4 @@ echo '{"data":{"offset":"'$OFFSET\
 '","input_wakeups":"'$PACKETSENDFAILURES\
 '","useful_input_wakeups":"'$USEFULINPUTWAKEUPS\
 '"},"error":"0","errorString":"","version":"'$VERSION'"}'
+

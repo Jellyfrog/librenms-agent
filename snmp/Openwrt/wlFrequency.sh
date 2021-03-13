@@ -17,3 +17,4 @@ frequency=`/usr/sbin/iw dev $1 info | /bin/grep channel | /usr/bin/cut -f 2- -s 
 
 # Return snmp result
 /bin/echo $frequency
+

@@ -37,3 +37,4 @@ output = {'version': version,
           'data': backupninja_datas}
 
 print(json.dumps(output))
+

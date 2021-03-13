@@ -46,3 +46,4 @@ output = {'version': version,
           'data': redis_data}
 
 print (json.dumps(output))
+

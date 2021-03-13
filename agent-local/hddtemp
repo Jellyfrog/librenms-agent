@@ -46,3 +46,4 @@ if [ "${hddtemp}" != "" ]; then
 else
 	echo "hddtemp not installed" >&2
 fi
+

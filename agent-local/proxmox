@@ -69,3 +69,4 @@ foreach my $vm (@{$conn->get("/api2/json/nodes/$hostname/netstat")}) {
         print "$vmid/$vm->{'dev'}/$vm->{'in'}/$vm->{'out'}/$vmname\n";
     };
 };
+

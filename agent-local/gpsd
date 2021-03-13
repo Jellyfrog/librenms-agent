@@ -51,3 +51,4 @@ if ($resp) {
 function satellite_used($sat) {
     return $sat->used;
 }
+

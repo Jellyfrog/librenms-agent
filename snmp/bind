@@ -847,3 +847,4 @@ print $sockets{'UDP/IPv4 sockets opened'}.','.
 	$sockets{'TCP/IPv4 sockets active'}.','.
 	$sockets{'TCP/IPv6 sockets active'}.','.
 	$sockets{'Raw sockets active'}."\n";
+

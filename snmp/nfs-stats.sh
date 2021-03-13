@@ -45,3 +45,4 @@ done
 
 $BIN_RM $LOG_OLD 2>&1
 $BIN_MV $LOG_NEW $LOG_OLD 2>&1
+

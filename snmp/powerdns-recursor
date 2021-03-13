@@ -10,3 +10,4 @@ for line in input.splitlines():
     data.append({'name': item[0].decode(), 'value': int(item[1].decode())})
 
 print(json.dumps(data))
+

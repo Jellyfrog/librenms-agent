@@ -33,3 +33,4 @@ NTP_VERSION=`$BIN_NTPQ -c rv | $BIN_GREP "version" | $BIN_AWK -F'ntpd ' '{print 
 echo '{"data":{"offset":"'$NTP_OFFSET'","frequency":"'$NTP_FREQUENCY'","sys_jitter":"'$NTP_SYS_JITTER'","clk_jitter":"'$NTP_CLK_JITTER'","clk_wander":"'$NTP_WANDER'"},"version":"'$NTP_VERSION'","error":"0","errorString":""}'
 
 exit 0
+

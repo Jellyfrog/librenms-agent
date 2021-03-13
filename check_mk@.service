@@ -5,3 +5,4 @@ After=network.target
 [Service]
 ExecStart=/usr/bin/check_mk_agent
 StandardOutput=socket
+

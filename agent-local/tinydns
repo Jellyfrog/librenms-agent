@@ -16,3 +16,4 @@
 echo "<<<tinydns>>>"
 head -n1 /service/dns/log/main/tinystats/tinystats.out
 
+

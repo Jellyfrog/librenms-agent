@@ -34,3 +34,4 @@ done
 
 # Return snmp result
 /bin/echo $count
+

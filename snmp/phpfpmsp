@@ -144,3 +144,4 @@ echo $phpfpm_total_processes
 echo $phpfpm_max_active_processes
 echo $phpfpm_max_children_reached
 echo $phpfpm_slow_requests
+

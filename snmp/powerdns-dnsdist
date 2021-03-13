@@ -163,3 +163,4 @@ if [ -z $* ]; then
 fi
 expr "$*" : ".*--help" > /dev/null && usage
 expr "$*" : ".*--debug" > /dev/null && debug
+

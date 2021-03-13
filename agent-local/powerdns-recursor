@@ -11,3 +11,4 @@ for line in input.splitlines():
 
 print('<<<powerdns-recursor>>>')
 print(json.dumps(data))
+

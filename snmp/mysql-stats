@@ -129,3 +129,4 @@ for category in datavariables:
     for variable in datavariables[category]:
 	if variable in data:
 	    print data[variable]
+

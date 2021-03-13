@@ -68,3 +68,4 @@ echo $RESULT | grep -o 'FreeRADIUS-Queue-Len-Acct = [[:digit:]]*'
 echo $RESULT | grep -o 'FreeRADIUS-Queue-Len-Detail = [[:digit:]]*'
 echo $RESULT | grep -o 'FreeRADIUS-Queue-PPS-In = [[:digit:]]*'
 echo $RESULT | grep -o 'FreeRADIUS-Queue-PPS-Out = [[:digit:]]*'
+

@@ -36,3 +36,4 @@ jq -nMc \
   '{"version": $version, "data": $stats, "error": $error, "errorString": $errorString }'
 
 # vim: tabstop=2:shiftwidth=2:expandtab:
+

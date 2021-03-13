@@ -43,3 +43,4 @@ SATSUSED=`cat $TMPFILE | $BIN_GREP -m 1 "SKY" | $BIN_PYTHON -c 'import sys,json;
 echo '{"data":{"mode":"'$GPSDMODE'", "hdop":"'$HDOP'", "vdop":"'$VDOP'", "latitude":"'$LAT'", "longitude":"'$LONG'", "altitude":"'$ALT'", "satellites":"'$SATS'", "satellites_used":"'$SATSUSED'"}, "error":"0", "errorString":"", "version":"'$VERSION'"}'
 
 rm $TMPFILE
+

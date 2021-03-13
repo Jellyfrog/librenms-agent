@@ -6,3 +6,4 @@ exit
 fi
 echo '<<<app-unbound>>>'
 $unboundctl stats
+

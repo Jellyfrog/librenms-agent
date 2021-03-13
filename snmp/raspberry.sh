@@ -44,3 +44,4 @@ $picmd $getStatusWVC1 | $pised 's/disabled/1/g'
 $picmd $getStatusMPG4 | $pised 's/disabled/1/g'
 $picmd $getStatusMJPG | $pised 's/disabled/1/g'
 $picmd $getStatusWMV9 | $pised 's/disabled/1/g'
+
