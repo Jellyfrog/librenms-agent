@@ -27,6 +27,8 @@
 export LC_ALL=C
 unset LANG
 
+echo $HELLO
+
 export MK_LIBDIR="/usr/lib/check_mk_agent"
 export MK_CONFDIR="/etc/check_mk"
 export MK_VARDIR="/var/lib/check_mk_agent"
